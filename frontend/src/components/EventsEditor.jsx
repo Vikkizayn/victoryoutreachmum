@@ -30,7 +30,7 @@ export default function EventsEditor() {
     formData.append('file', file);
 
     try {
-      const res = await fetch('http://localhost:5000/upload', {
+      const res = await fetch('https://vom-backend.onrender.com/upload', {
         method: 'POST',
         headers: {
           Authorization: buildAuthHeaders().Authorization, // Only include Authorization header for file upload
@@ -55,7 +55,7 @@ export default function EventsEditor() {
 
   const saveOne = async () => {
     try {
-      const res = await fetch('http://localhost:5000/events', {
+      const res = await fetch('https://vom-backend.onrender.com/events', {
         method: 'POST',
         headers: buildAuthHeaders(),
         body: JSON.stringify(edit),
@@ -77,7 +77,7 @@ export default function EventsEditor() {
   const handleDelete = async (id) => {
       if (!window.confirm('Delete this event?')) return;
       try {
-        const res = await fetch(`http://localhost:5000/events/${id}`, {
+        const res = await fetch(`https://vom-backend.onrender.com/events/${id}`, {
           method: 'DELETE',
           headers: buildAuthHeaders(),
         });
