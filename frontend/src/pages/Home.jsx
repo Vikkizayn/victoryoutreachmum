@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Clock, ArrowRight, Heart, Users, Book } from 'lucide-react';
-
+import welcomeImg from "../image/welcome.jpg"
 
 const Home = () => {
   const [joinInfo, setJoinInfo] = useState({ address: '', timing: '' });
@@ -100,14 +100,11 @@ useEffect(() => {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <img
-                src="./src/image/WELCOME.jpg"
-                alt="Victory Outreach Church community"
-                className="rounded-2xl shadow-lg w-full h-80 object-cover"
-              />
-              <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
-
+             
+              <div className="rounded-2xl shadow-lg w-full h-80 object-cover" >
+                <img src={welcomeImg} alt="Victory Outreach Church community" />
               </div>
+             
             </div>
 
             <div>
