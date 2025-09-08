@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Clock, ArrowRight, Heart, Users, Book } from 'lucide-react';
-import welcomeImg from "../image/welcome.jpg"
+
 
 const Home = () => {
   const [joinInfo, setJoinInfo] = useState({ address: '', timing: '' });
@@ -102,7 +102,7 @@ useEffect(() => {
             <div className="relative">
              
               <div className="rounded-2xl shadow-lg w-full h-80 object-cover" >
-                <img src="/image/WELCOME.jpg" alt="Victory Outreach Church community" />
+                <img src="/images/WELCOME.jpg" alt="Victory Outreach Church community" />
               </div>
              
             </div>

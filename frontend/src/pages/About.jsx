@@ -92,7 +92,7 @@ const About = () => {
             
             <div className="relative">
               <img
-                src="./src/image/18314.jpg"
+                src="images/18314.jpg"
                 alt="Victory Outreach community"
                 className="rounded-2xl shadow-lg"
               />
@@ -225,7 +225,7 @@ const About = () => {
       {/* Founder Image */}
       <div className='h-96'>
         <img
-          src="./src/image/mage-of-Paster-Sonny.jpg" // Replace with your actual image path
+          src="/images/mage-of-Paster-Sonny.jpg" // Replace with your actual image path
           alt="Pastor Sonny & Sister Julie Arguinzoni"
           className='rounded-2xl align-center'
  

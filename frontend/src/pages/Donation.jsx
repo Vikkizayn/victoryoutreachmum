@@ -92,7 +92,7 @@ const Donation = () => {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">Scan to Donate</h2>
           <img 
-            src="/image/QRscanner.jpeg"
+            src="/images/QRscanner.jpeg"
             alt="QR Code Scanner" 
             className="mx-auto w-full max-w-md rounded-xl shadow-lg border border-gray-300"
           />
