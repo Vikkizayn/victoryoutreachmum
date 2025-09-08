@@ -102,7 +102,7 @@ useEffect(() => {
             <div className="relative">
              
               <div className="rounded-2xl shadow-lg w-full h-80 object-cover" >
-                <img src={welcomeImg} alt="Victory Outreach Church community" />
+                <img src="/image/WELCOME.jpg" alt="Victory Outreach Church community" />
               </div>
              
             </div>

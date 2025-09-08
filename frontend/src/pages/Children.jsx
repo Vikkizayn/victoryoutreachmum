@@ -103,7 +103,7 @@ const Children = () => {
             
             <div className="relative">
               <img
-                src="./public/image/HOME A.JPG"
+                src="/image/HOME A.jpg"
                 alt="Children in spiritual activities"
                 className="rounded-2xl shadow-lg w-full h-80 object-cover"
               />
@@ -260,7 +260,7 @@ const Children = () => {
             
             <div className="relative">
               <img
-                src="./public/image/HOME 2.jpg"
+                src="/image/HOME 2.jpg"
                 alt="Volunteer with children"
                 className="rounded-2xl shadow-lg"
               />

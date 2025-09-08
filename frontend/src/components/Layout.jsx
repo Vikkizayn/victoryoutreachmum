@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Heart, Phone, Mail, MapPin } from 'lucide-react';
-import vomlogo from "../image/VictoryLOGO.svg"
 
 
 
@@ -34,7 +33,7 @@ const Layout = ({ children }) => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
               <div className="w-14 h-14overflow-hidden flex items-center justify-center">
-                <img src={vomlogo} alt="logo" />
+                <img src="/images/VictoryLOGO.svg" />
                 </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-800">Victory Outreach</h1>
@@ -104,7 +103,7 @@ const Layout = ({ children }) => {
             <div className="col-span-2">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-20 h-20 flex items-center justify-center">
-                   <img src={vomlogo} alt="logo" className="w-25 h-25  " />
+                   <img src="/image/VitoryLOGO.svg"className="w-25 h-25  " />
                 </div>
                 <h3 className="text-lg font-bold">Victory Outreach Mumbai</h3>
               </div>

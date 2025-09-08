@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Heart, DollarSign, Users, Home, GraduationCap, Star, Shield, CreditCard, Check, IndianRupee } from 'lucide-react';
-import QRscanner from '../image/QRscanner.jpeg';
+
 const Donation = () => {
   const [selectedAmount, setSelectedAmount] = useState(1000);
   const [customAmount, setCustomAmount] = useState('');
@@ -92,7 +92,7 @@ const Donation = () => {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">Scan to Donate</h2>
           <img 
-            src={QRscanner} 
+            src="/image/QRscanner.jpeg"
             alt="QR Code Scanner" 
             className="mx-auto w-full max-w-md rounded-xl shadow-lg border border-gray-300"
           />
