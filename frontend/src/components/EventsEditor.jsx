@@ -19,7 +19,7 @@ export default function EventsEditor() {
   }, []);
 
   const fetchEvents = () => {
-    fetch('http://localhost:5000/events')
+    fetch('https://vom-backend.onrender.com/events')
       .then(r => r.json())
       .then(setItems)
       .catch(console.error);
@@ -92,7 +92,7 @@ export default function EventsEditor() {
   const deleteOne = async (id) => {
     if (window.confirm("Are you sure you want to delete this event?")) {
       try {
-        const res = await fetch(`http://localhost:5000/events/${id}`, {
+        const res = await fetch(`https://vom-backend.onrender.com/events/${id}`, {
           method: 'DELETE',
           headers: buildAuthHeaders(),
         });
