@@ -8,7 +8,7 @@ const Home = () => {
 
   
 useEffect(() => {
-  fetch('http://localhost:5000/joinus')
+  fetch('https://vom-backend.onrender.com/joinus')
     .then(async res => {
       if (!res.ok) throw new Error(`HTTP error ${res.status}`);
       return res.json();
