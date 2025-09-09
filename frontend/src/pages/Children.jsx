@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Home, GraduationCap, Users, Star, Shield, Gift, Smile, Book, SprayCan as Pray } from 'lucide-react';
-
+import childrenImg1 from '../image/HOME A.jpg'
+import childrenImg2 from '../image/HOME 2.jpg'
 const Children = () => {
   const programs = [
     {
@@ -103,7 +104,7 @@ const Children = () => {
             
             <div className="relative">
               <img
-                src="/images/HOME A.jpg"
+                src={childrenImg1}
                 alt="Children in spiritual activities"
                 className="rounded-2xl shadow-lg w-full h-80 object-cover"
               />
@@ -260,7 +261,7 @@ const Children = () => {
             
             <div className="relative">
               <img
-                src="/images/HOME 2.jpg"
+                src={childrenImg2}
                 alt="Volunteer with children"
                 className="rounded-2xl shadow-lg"
               />

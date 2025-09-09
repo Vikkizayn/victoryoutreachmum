@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Clock, ArrowRight, Heart, Users, Book } from 'lucide-react';
+import welcomeIMG from '../image/WELCOME.jpg'
 
 
 const Home = () => {
@@ -102,7 +103,7 @@ useEffect(() => {
             <div className="relative">
              
               <div className="rounded-2xl shadow-lg w-full h-80 object-cover" >
-                <img src="/images/WELCOME.jpg" alt="Victory Outreach Church community" />
+                <img src={welcomeIMG} alt="Victory Outreach Church community" />
               </div>
              
             </div>

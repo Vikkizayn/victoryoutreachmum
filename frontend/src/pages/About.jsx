@@ -1,6 +1,8 @@
 import React from 'react';
 import { Heart, Users, Star, Book, Cross, Globe, Target, Shield } from 'lucide-react';
-
+import bibleImg from '../image/18314.jpg'
+import pastorSonny from '../image/Sonny.jpg'
+import samson from '../image/samson.jpg'
 const About = () => {
   
 
@@ -42,7 +44,7 @@ const About = () => {
       name: 'Pastor Samson John',
       role: 'Senior Pastor',
       bio: 'Pastor Samson has been leading Victory Outreach Mumbai for over 23 years, bringing passion for evangelism and discipleship to the community.',
-      image: 'https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&w=400'
+      
     },  
    
   ];
@@ -92,7 +94,7 @@ const About = () => {
             
             <div className="relative">
               <img
-                src="images/18314.jpg"
+            src={bibleImg}
                 alt="Victory Outreach community"
                 className="rounded-2xl shadow-lg"
               />
@@ -225,7 +227,7 @@ const About = () => {
       {/* Founder Image */}
       <div className='h-96'>
         <img
-          src="/images/mage-of-Paster-Sonny.jpg" // Replace with your actual image path
+          src={pastorSonny} // Replace with your actual image path
           alt="Pastor Sonny & Sister Julie Arguinzoni"
           className='rounded-2xl align-center'
  
@@ -267,7 +269,7 @@ const About = () => {
               <div key={index} className="text-center group">
                 <div className="relative mb-4">
                   <img
-                    src={leader.image}
+                    src={samson}
                     alt={leader.name}
                     className="w-32 h-32 rounded-full mx-auto object-cover group-hover:scale-105 transition-transform"
                   />
