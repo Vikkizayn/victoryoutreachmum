@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Heart, DollarSign, Users, Home, GraduationCap, Star, Shield, CreditCard, Check, IndianRupee } from 'lucide-react';
-import QRscanner from '../image/QRScanner.jpeg'
+import QRscanner from '../image/QRscanner.jpeg'
 const Donation = () => {
   const [selectedAmount, setSelectedAmount] = useState(1000);
   const [customAmount, setCustomAmount] = useState('');
