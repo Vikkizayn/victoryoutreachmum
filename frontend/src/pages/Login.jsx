@@ -7,7 +7,7 @@ export default function Login() {
   const navigate = useNavigate();
 
   const login = async () => {
-    const res = await fetch('http://localhost:5000/login', {
+    const res = await fetch('https://vom-backend.onrender.com/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),
